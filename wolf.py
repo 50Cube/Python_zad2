@@ -1,4 +1,4 @@
-from Zadanie2.sheep import *
+from sheep import *
 import math
 
 
