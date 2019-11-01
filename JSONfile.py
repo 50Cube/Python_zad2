@@ -1,7 +1,15 @@
 import json
+import logging
 
 
 def saveToJSON(file, i, wolf, sheeps, sheep_amount, data):
+    logging.debug('saveToJSON(file=' + file +
+                  ', i=' + str(i) +
+                  ', wolf=' + str(wolf) +
+                  ', sheeps=' + str(sheeps) +
+                  ', sheep_amount=' + str(sheep_amount) +
+                  # ', data=' + str(data) +
+                  ')')
     tmp = []
     for j in range(0, sheep_amount):
         tmp += [None]

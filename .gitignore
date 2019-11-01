@@ -128,3 +128,5 @@ dmypy.json
 *.json
 
 *.csv
+
+.DS_Store
