@@ -2,8 +2,8 @@ import json
 import logging
 
 
-def saveToJSON(file, i, wolf, sheeps, sheep_amount, data):
-    logging.debug('saveToJSON(file=' + file +
+def save_to_json(file, i, wolf, sheeps, sheep_amount, data):
+    logging.debug('save_to_json(file=' + file +
                   ', i=' + str(i) +
                   ', wolf=' + str(wolf) +
                   ', sheeps=' + str(sheeps) +
